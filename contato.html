@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoort" content="width=device-width">
+        <title>Contato - Lany Baby</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;
+        1,300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/logo.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="caixa">
+                <h1><a href="index.html"><img src="img/logo.png"></a></h1>
+            </div>   
+        </header>
+        <main>
+            <p class="paragrafo-contato">Entre em contato conosco. Assim que possível um de nossos atendentes responderá sua mensagem!</p>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend class="subtitulo">Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="subtitulo">Qual horário prefere ser atendido?</legend>
+                    <select class="seletor">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                
+
+                <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email</label>
+
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+        </main>
+        <footer>
+            <img src="img\logo.png">
+            <p class="copyright">&copy; Copyright Loja Lany Baby</p>
+        </footer>
+    </body>
+</html>
