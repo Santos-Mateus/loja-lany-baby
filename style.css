@@ -292,9 +292,15 @@ footer {
 
 /* Página de Contato */
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .paragrafo-contato {
     margin: 70px 0;
     font-size: 20px;
+    text-align: center;
 
 }
 
@@ -333,7 +339,7 @@ form legend {
 }
 
 .enviar {
-    margin: 25px 0 10px 25px;
+    margin: 25px 0 10px 46%;
     background-color: #fdf1f1;
     color: #ff005b;
     font-size: 22px;
